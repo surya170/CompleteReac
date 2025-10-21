@@ -1,7 +1,7 @@
-function Hello() {
+export function Hello() {
     return "Hello | React";
 }
 
-function Welcome() {
+export function Welcome() {
     return "Welcome to React 18";
 }
