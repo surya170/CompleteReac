@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./demo.js"></script>
+    <script type="module">
+        import { Welcome } from "./demo.js";
+
+        document.querySelector("p").innerHTML = Welcome();
+    </script>
 </head>
 <body>
-    <h1>Legacy and modular code difference </h1>
+    <p></p>
 </body>
 </html>
